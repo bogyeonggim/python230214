@@ -12,3 +12,6 @@ def swap(x,y):
     return y,x 
 
 result = swap(3,4)
+
+def hello(x1,x2):
+    return (x1+x2) 
