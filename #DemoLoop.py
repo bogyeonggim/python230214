@@ -55,6 +55,6 @@ def getBiggerThan20(i):
     return i > 20 
 
 lst = [10,25,30]
-iterL = filter(getBiggerThan20,lst)
+iterL = filter(getBiggerThan20,lst) #참조가 복사가 됨 
 for i in iterL:
     print(i)
