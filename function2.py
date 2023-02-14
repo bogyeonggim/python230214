@@ -30,3 +30,15 @@ def func2(a):
 
 # 호출 
 print(func2(1))
+
+# 교집합을 리턴하는 함수 
+def intersect(prelist, postlist):
+    #지역변수에 교집합 문자 모으기
+    result = []
+    for x in prelist :
+        if x in postlist and x not in result :
+            result.append(x)
+    return result 
+
+# 호출 
+print(intersect("HAM","SPAM"))
